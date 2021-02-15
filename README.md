@@ -1,7 +1,7 @@
 # YoloNet for plant feature detection
 Plant speciemen feature detection using YOLOnet. Aims to detect features from 14 specimen categories
 Code includes training, predicting for one image and evaluate the accuracy for all 14 categories on training sets.
-Original work from https://github.com/hizhangp/yolo_tensorflow
+
 
 ## Installation Prerequisite
 1. Linux system (I used Ubuntu 16.04, have not tested the code on any other Linux distributions)
@@ -27,3 +27,6 @@ The output file will be an image name as "output.jpg" with the feature bounded b
 python eval_model.py
 ```
 which will compute the category-wise average overall accuracies and non-background prediction accuracies, visualize the detection result saving them to local folder named "predictions" , model by model.
+
+
+Original work from https://github.com/hizhangp/yolo_tensorflow
